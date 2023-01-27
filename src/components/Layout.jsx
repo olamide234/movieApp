@@ -20,7 +20,7 @@ export default function Layout({ routesList, children }) {
                 <Link
                   to={item.path}
                   key={index}
-                  className="text-light-gray flex items-center no-underline"
+                  className={(pathName === item.path) ? "text-white flex items-center no-underline" : "text-light-gray flex items-center no-underline"}
                 >
                   <div className="mr-[0.375rem]">{item.icon}</div>
                   {item.itemName}
