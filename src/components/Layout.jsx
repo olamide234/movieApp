@@ -7,10 +7,10 @@ export default function Layout({ routesList, children }) {
   return (
     <div className="bg-black-bg h-screen">
       <nav className="sticky bg-nav-bg py-2">
-        <div className="flex flex-wrap items-center justify-between w-full sm:w-[80%] mx-auto px-3 ">
+        <div className="flex flex-wrap items-center justify-between w-full sm:w-[75%] mx-auto px-3 ">
           <Link
             to="#"
-            className="font-medium text-white whitespace-nowrap text-xl mr-4 py-[0.3125rem]"
+            className="font-bold text-white whitespace-nowrap text-xl mr-4 py-[0.3125rem]"
           >
             MoviesHub
           </Link>

@@ -9,6 +9,8 @@ module.exports = {
       colors: {
         "black-bg": "#0D0D0F",
         "nav-bg": "#161616",
+        "card-bg": "rgb(22, 22, 22)",
+        "card-border-color": "rgba(0, 0, 0, .175)",
         "light-gray": "rgb(175, 175, 175)",
         "dark-gray": "rgb(165, 165, 165)",
         "primary-green": "rgb(0, 206, 121)",
