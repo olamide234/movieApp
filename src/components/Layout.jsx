@@ -5,8 +5,8 @@ export default function Layout({ routesList, children }) {
   const location = useLocation();
   const pathName = location.pathname;
   return (
-    <div className="bg-black-bg h-screen">
-      <nav className="sticky bg-nav-bg py-2">
+    <div className="bg-black-bg h-full">
+      <nav className="sticky top-0 bg-nav-bg py-2">
         <div className="flex flex-wrap items-center justify-between w-full sm:w-[75%] mx-auto px-3 ">
           <Link
             to="#"
